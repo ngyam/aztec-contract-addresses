@@ -1,0 +1,32 @@
+{
+  "name": "aztec-contract-addresses",
+  "version": "1.0.0",
+  "description": "Aztec protocol contract addresses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "patch-package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngyam/aztec-contract-addresses.git"
+  },
+  "keywords": [
+    "aztec",
+    "protocol",
+    "contract",
+    "addresses",
+    "volta",
+    "ewf"
+  ],
+  "author": "Adam Nagy <ngy.am.zs@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ngyam/aztec-contract-addresses/issues"
+  },
+  "homepage": "https://github.com/ngyam/aztec-contract-addresses#readme",
+  "dependencies": {
+    "@aztec/contract-addresses": "^1.10.0",
+    "patch-package": "^6.2.0"
+  }
+}

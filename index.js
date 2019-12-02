@@ -1,0 +1,1 @@
+module.exports = require("@aztec/contract-addresses")
